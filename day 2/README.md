@@ -1,6 +1,6 @@
 # Add Two Number (Linked List)
 
-## (Question) [https://leetcode.com/problems/add-two-numbers/]
+## [Question](https://leetcode.com/problems/add-two-numbers/)
 
 ## Approach
 

@@ -9,9 +9,9 @@ A palindrome mirrors around its center. Each character (and each gap between cha
 
 Two cases are considered:
 
-    - Odd-length palindromes (single center character)
+- Odd-length palindromes (single center character)
 
-    - Even-length palindromes (center between two characters)
+- Even-length palindromes (center between two characters)
 
 The longest palindrome found during these expansions is returned.
 
@@ -56,8 +56,8 @@ func longestPalindrome(s string) string {
     }
 
     for i := 0; i < len(s); i++ {
-        expand(i, i)     // odd-length palindrome
-        expand(i, i+1)   // even-length palindrome
+        expand(i, i)     
+        expand(i, i+1)  
     }
 
     return s[start : start+maxLen]
